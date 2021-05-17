@@ -2,7 +2,7 @@ div {
   background-color: white
 }
 
-body{
+head{
   background-image:
-    linear-gradient(blue,red)
+    linear-gradient(blue,red),
 }
