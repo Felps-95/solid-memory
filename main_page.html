@@ -2,11 +2,23 @@
 <html>
     <head>
       <title>Erro</title>
-      <meta charset="utf-8"> 
+      <meta charset="utf-8">
+        <title>Pagina inicial</title>
     </head>
     <body>
-      <div>
-        <p>Hello world</p>
+      <div id='div1'>
+        <h1>Hello world</h1>
+        <p>Ipsem lorem ipsem lorem</p>
       </div>
-    </body
+      <div>
+          <button id='change' onclick='change()'>Change color</button>
+        </div>
+    </body>
+    <script>
+        function change(){
+            var elem = document.getElementById('div1');
+            var color = 'rgba('.concat(Math.random()*256,',',Math.random()*256,',',Math.random()*256,',',Math.random(),')')
+            elem.style.color = color;
+        }
+    </script>
 </html>
