@@ -2,30 +2,29 @@ nav.navSet {
   background-color: #6666ff;
   overflow: hidden;
   width: auto;
-  text-align: center;
+  text-align: left;
+  margin: 0px -10px;
 }
 
 a{
   text-decoration: none;
   color: #ffffff;
+  float: center;
+}
+
+li{
+  color: #f2f2f2;
+  width: 25vw;
+  height: 15px;
+  padding: 15px;
+  font-size: 17px;
+  list-style-type: none;
 }
 
 ul{
   margin: 0;
   padding: 0;
   display: flex;
-}
-
-li{
-  float: center;
-  color: #f2f2f2;
-  text-align: center;
-  width: 25vw;
-  height: 15px;
-  padding: 15px;
-  text-decoration: none;
-  font-size: 17px;
-  list-style-type: none;
 }
 
 .navSet li.active{
