@@ -5,6 +5,11 @@ nav.navSet {
   text-align: center;
 }
 
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 ul{
   margin: 0;
   padding: 0;
