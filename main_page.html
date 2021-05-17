@@ -1,24 +1,17 @@
-
 <html>
     <head>
       <title>Pagina inicial</title>
       <meta charset="utf-8">
        <title>Pagina inicial</title>
     </head>
-    <body>
+    <body style='background-color:gray' >
       <div id='div1'>
-        <h1>Hello world</h1>
-        <p>Ipsem lorem ipsem lorem</p>
+        <h1 style='text-align:center'>Hello world</h1>
       </div>
       <div>
           <button id='change' onclick='change()'>Change color</button>
         </div>
     </body>
-    <script>
-        function change(){
-            var elem = document.getElementById('div1');
-            var color = 'rgba('.concat(Math.random()*256,',',Math.random()*256,',',Math.random()*256,',',Math.random(),')')
-            elem.style.color = color;
-        }
+    <script type="text/javascript" src="https://felps-95.github.io/solid-memory/test_script.js">
     </script>
 </html>
