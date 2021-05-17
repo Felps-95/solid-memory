@@ -41,3 +41,13 @@ body{
   background-image: linear-gradient(lightblue, pink);
 }
 
+.mainInfo {
+  overflow: hidden;
+  width: 90vw;
+  text-align: center;
+}
+
+.informativeText{
+  
+}
+
